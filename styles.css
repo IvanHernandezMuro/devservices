@@ -1,0 +1,12 @@
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 300px;
+        background-image: url(./img/LogoESE.jpg);
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 46px;
+
+    }
