@@ -1,12 +1,22 @@
-    body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 300px;
-        background-image: url(./img/LogoESE.jpg);
-        background-size: cover;
-    }
+html {
+    margin: 0;
+    padding: 0;
+}
 
-    h1 {
-        font-size: 46px;
+body {
+    font-family: Arial, sans-serif;
+    /* padding: 100px; */
+    /* background-image: url(./img/LogoESE.jpg);
+    background-size: cover; */
+}
 
-    }
+h1 {
+    font-size: 15px;
+    color: aliceblue;
+
+}
+
+P {
+    font-size: 14px;
+    position: absolute;
+}
