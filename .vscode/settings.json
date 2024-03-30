@@ -17,5 +17,12 @@
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#15202b99",
         "titleBar.inactiveForeground": "#e7e7e799"
-    }
+    },
+    "cSpell.words": [
+        "Cancún",
+        "CURP",
+        "DEVS",
+        "egresos",
+        "Juárez"
+    ]
 }
