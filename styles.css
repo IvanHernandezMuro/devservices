@@ -1,21 +1,22 @@
 body {
-    font-family: Montserrat,
-        "Open Sans",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     margin: 0;
     padding: 0;
     text-align: justify;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+body {
+    background-image: url('/img/backround-sec01.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+
 
 .content {
     padding: 20px;
