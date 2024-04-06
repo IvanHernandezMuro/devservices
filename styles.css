@@ -16,8 +16,8 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+
 }
 
 *,
@@ -27,12 +27,17 @@ html {
 }
 
 body {
-    font-size: 16px;
-    font-family: 'Josefin Sans', sans-serif;
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
 }
 
 h1 {
@@ -54,11 +59,17 @@ h1,
 h2,
 h3 {
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 
 }
 
 p {
     color: var(--black);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .header,
