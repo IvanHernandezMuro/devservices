@@ -153,26 +153,33 @@ p {
 }
 
 /** hero **/
+
 .hero {
-    background-image: url(./img/background-sec01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 65rem;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .contenido-hero {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* background-color:rgba(0 0 0 / 0.5) */
-    height: 100%;
-    width: 100%;
-
+    background-color: #0A0A0A;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh);
+    position: relative;
 }
+
+.contenido-hero img {
+    border-radius: 100%;
+}
+
+
+
+
+
 
 /**servicios**/
 .main {
@@ -214,25 +221,33 @@ p {
 
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-right: 7rem;
+
 }
 
-.aside h2 {
+.title {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     text-align: center;
     width: 100%;
-    height: 40%;
+    height: 50%;
+    padding: 5rem;
 }
 
-.aside p {
+.content-aside {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     text-align: justify;
-    margin: 0 auto;
+    margin-inline: 3rem;
     width: 90%;
     height: 20%;
+
 
 
 }
@@ -332,4 +347,61 @@ p {
 .bot-ini {
     display: flex;
     justify-content: center;
+}
+
+/** Media Query **/
+
+
+@media(max-width: 319px) {
+
+    .contenido-hero img {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 80%;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media(max-width: 480px) {
+
+    .contenido-hero img {
+
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 80%;
+        width: 100%;
+        border-radius: 0;
+
+    }
+}
+
+@media(max-width: 768px) {
+
+    .contenido-hero img {
+
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        height: 80%;
+        width: 100%;
+        border-radius: 0;
+
+
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .section {
+        display: none;
+    }
+
 }
