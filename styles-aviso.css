@@ -26,15 +26,25 @@ body {
 
 
 header {
+    display: flex;
+    justify-content: center;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 5px 0;
 }
 
+@media (max-width: 412px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
 .content {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
     padding-bottom: 20px;
 
 }
@@ -43,7 +53,13 @@ header {
     font-size: 20px;
 }
 
-.actual {
+@media (min-width: 412px) {}
+
+
+
+
+
+.actualization {
     text-align: end;
 }
 
