@@ -1,46 +1,112 @@
-h1 {
-    font-size: 38px;
+/** Estos son Pseudoselectores**/
+/* Globales */
+:root {
+    /*Custom properties*/
+    --white: rgb(255, 255, 255);
+    --black: #0A0A0A;
+    --yellow: #ffda79;
+    --salmon: rgb(255, 176, 148);
+    --blue: #34ace0;
+    --gris: #D6D7D6;
+    --grisOscuro: rgb(99, 107, 123);
+    --oscuro: rgb(40, 45, 50);
+    --red: #ff5252;
+    --fuentes-principal: 3.8rem;
 }
 
-h2 {
-    font-size: 28px;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+
 }
 
-h3 {
-    font-size: 18px;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 24px;
+
+
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* .header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #333;
+    padding: 0;
+    width: 100%;
+} */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
     font-family: Montserrat,
         "Open Sans",
         "Helvetica Neue",
         Helvetica,
         Arial,
         sans-serif;
-    margin: 0;
-    padding: 0;
-    color: rgb(64, 64, 65);
-    text-align: justify;
-}
-
-
-
-header {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
     color: #fff;
-    text-align: center;
-    padding: 5px 0;
 }
+
+
 
 @media (max-width: 412px) {
     .header h1 {
-        font-size: 1.5rem;
+
+        font-size: 18px;
     }
 }
 
+@media (max-width: 390px) {
+    .header h1 {
+        font-size: 16px;
+    }
+}
 
+@media (max-width: 375px) {
+    .header h1 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .header h1 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header h1 {
+        font-size: 10px;
+    }
+}
 
 .content {
     padding-right: 150px;
@@ -53,7 +119,31 @@ header {
     font-size: 20px;
 }
 
-@media (min-width: 412px) {}
+@media (max-width: 412px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+
+    .content h1,
+    h2,
+    h3 {
+        display: flex;
+        text-align: center;
+    }
+
+    .content p {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+}
+
 
 
 
