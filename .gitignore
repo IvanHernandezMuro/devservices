@@ -1,4 +1,8 @@
 /maqueta
 index-hotfix.html
 index-hotfix-aviso.html
+<<<<<<< HEAD
 .gitignore
+=======
+.gitnore
+>>>>>>> hotfix-aviso
