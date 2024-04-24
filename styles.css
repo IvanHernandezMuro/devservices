@@ -155,6 +155,114 @@ p {
 /** hero **/
 
 .hero {
+    background-image: url('/img/background-sec02.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* 100% del viewport height */
+}
+
+.logo {
+    width: 50%;
+    /* Ocupa la mitad del ancho del header */
+    max-width: 300px;
+    /* Opcional: establece un ancho máximo */
+
+    margin: 0;
+    /* Centra el logotipo horizontalmente */
+}
+
+.logo img {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+/* Media queries para hacer el logotipo responsive */
+@media only screen and (max-width: 1440px) {
+    .logo {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .logo {
+        max-width: 220px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        max-width: 180px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .logo {
+        max-width: 150px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .logo {
+        max-width: 130px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .logo {
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .logo {
+        max-width: 110px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .logo {
+        max-width: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hero {
     background-image: url(./img/background-sec02jpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,9 +270,9 @@ p {
     position: relative;
     display: flex;
     flex-direction: column;
-}
+} */
 
-.logo {
+/* .logo {
 
     display: flex;
     align-items: center;
@@ -172,16 +280,15 @@ p {
     padding: 0;
     width: 50%;
     height: 100vh;
-}
+} */
 
-.logo img {
+/* .logo img {
 
-    /* margin: 5px 5px 0px 5px; */
     width: 80%;
     height: 80%;
-}
+} */
 
-.contenido-hero {
+/* .contenido-hero {
     background-color: #0A0A0A;
     display: flex;
     flex-direction: column;
@@ -192,11 +299,11 @@ p {
     background-size: cover;
     height: calc(100vh);
     position: relative;
-}
+} */
 
-.contenido-hero img {
+/* .contenido-hero img {
     border-radius: 100%;
-}
+} */
 
 
 
