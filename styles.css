@@ -1,5 +1,13 @@
 /** Estos son Pseudoselectores**/
 /* Globales */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
 :root {
     /*Custom properties*/
     --white: rgb(255, 255, 255);
@@ -12,32 +20,6 @@
     --oscuro: rgb(40, 45, 50);
     --red: #ff5252;
     --fuentes-principal: 3.8rem;
-}
-
-html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-body {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
-
-header {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 14px;
 }
 
 h1 {
@@ -72,23 +54,22 @@ p {
     font-size: 14px;
 }
 
-.header,
+/* .header,
 .titulo {
     color: var(--white);
     height: 1rem;
-}
+} */
 
 .titulo span {
     font-size: 2rem;
 }
 
-.contenedor {
+/* .contenedor {
     max-width: 120rem;
-    /*120rem = 1200px*/
     margin: 1px auto;
     margin-top: 0.5rem;
 
-}
+} */
 
 
 /**Barra de Navegación**/
@@ -136,6 +117,12 @@ p {
 
 }
 
+@media screen and (max-width: 412px) {
+    .nav-principal {
+        display: none;
+    }
+}
+
 .nav-principal a {
     display: flex;
     color: var(--gris);
@@ -154,13 +141,90 @@ p {
 
 /** hero **/
 
-.hero {
+.container {
+    height: 100%;
+    background-color: #0A0A0A;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    /* max-width: 100%; */
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1440px) {
+    .logo img {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .logo img {
+        max-width: 500px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .logo img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .logo img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo img {
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo img {
+        max-width: 200px;
+    }
+}
+
+
+
+
+
+
+
+/* .hero {
     background-image: url('/img/background-sec02.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    /* 100% del viewport height */
-}
+    height: 100vh; 
+    } */
 
 .logo {
     width: 50%;
@@ -172,13 +236,13 @@ p {
     /* Centra el logotipo horizontalmente */
 }
 
-.logo img {
+/* .logo img {
     margin-top: 150px;
     margin-left: 150px;
-}
+} */
 
 /* Media queries para hacer el logotipo responsive */
-@media only screen and (max-width: 1440px) {
+/* @media only screen and (max-width: 1440px) {
     .logo {
         max-width: 250px;
     }
@@ -227,7 +291,7 @@ p {
     .logo {
         max-width: 80px;
     }
-}
+} */
 
 
 
