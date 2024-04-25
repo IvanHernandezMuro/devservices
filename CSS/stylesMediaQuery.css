@@ -1,0 +1,127 @@
+/**Barra de navegación*/
+@media screen and (max-width: 412px) {
+    .nav-principal {
+        display: none;
+    }
+}
+
+/**Contenedor HERO*/
+/* @media screen and (max-width: 1440px) {
+    .container {
+        padding-top: 100px;
+        padding-left: 180px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .container {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .container {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding-left: 50px;
+    }
+} */
+
+/** Logo */
+/* @media screen and (max-width: 1440px) {
+    .logo img {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .logo img {
+        max-width: 500px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .logo img {
+        max-width: 300px;
+
+    }
+} */
+
+/* @media screen and (max-width: 412px) {
+    .container {
+
+        padding-left: 360px; 
+
+    }
+} */
+
+/* @media screen and (max-width: 390px) {
+    .logo img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo img {
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo img {
+        max-width: 200px;
+    }
+} */
+
+/** SERVICIOS **/
+
+/* Section */
+
+/* @media (max-width: 768px) {
+
+    .section {
+        display: none;
+    }
+
+} */

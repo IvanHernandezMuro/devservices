@@ -247,6 +247,15 @@ footer {
 
 footer a {
     color: antiquewhite;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
 }
 
 a {
@@ -256,6 +265,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+    text-decoration-color: #00f;
+    text-decoration-thickness: 6px;
+    transition: text-decoration-color 0.5s ease-in-out;
 }
 
 .data-table {
