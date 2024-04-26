@@ -56,41 +56,48 @@
 } */
 
 /** Logo */
-/* @media screen and (max-width: 1440px) {
-    .logo img {
-        max-width: 500px;
+@media screen and (max-width: 1440px) {
+    .logo {
+        align-self: center;
+        width: auto;
+        height: 80%;
     }
 }
 
 @media screen and (max-width: 1366px) {
-    .logo img {
-        max-width: 500px;
-
+    .logo {
+        align-self: center;
+        width: auto;
+        height: 70%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .logo img {
-        max-width: 400px;
+    .logo {
+        align-self: center;
+        width: auto;
+        height: 60%;
     }
 }
 
 @media screen and (max-width: 412px) {
-    .logo img {
-        max-width: 300px;
-
+    .logo {
+        align-self: center;
+        width: auto;
+        height: 50%;
     }
-} */
+}
 
-/* @media screen and (max-width: 412px) {
+
+@media screen and (max-width: 412px) {
     .container {
 
-        padding-left: 360px; 
+        padding-left: 360px;
 
     }
-} */
+}
 
-/* @media screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
     .logo img {
         max-width: 200px;
     }
@@ -112,7 +119,7 @@
     .logo img {
         max-width: 200px;
     }
-} */
+}
 
 /** SERVICIOS **/
 

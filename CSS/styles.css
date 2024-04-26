@@ -1,8 +1,8 @@
 /** Estos son Pseudoselectores**/
 /* Globales */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     height: 100%;
     font-family: Arial, sans-serif;
 }
@@ -110,36 +110,17 @@ nav a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** hero **/
 
 .main {
+
     background-image: url('/img/background-sec02.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: calc(100vh -3rem);
+    height: calc(100vh + 3rem);
     display: flex;
+    margin-top: 3rem;
     /* flex-wrap: wrap;
     align-content: space-around;
     justify-content: flex-start;
