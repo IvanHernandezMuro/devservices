@@ -54,31 +54,80 @@ p {
 }
 
 /**Barra de Navegación**/
-.nav-principal {
-    padding-right: 1rem;
+
+.menu-btn {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
 }
 
-.nav-principal a:hover {
-    font-weight: lighter;
-
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin: 3px 0;
 }
 
-.btn-menu {
+.nav-menu {
     display: flex;
     justify-content: flex-end;
-    gap: auto;
-
+    align-items: center;
+    background-color: var(--black);
+    color: white;
+    width: 100%;
+    height: 2rem;
+    position: fixed;
 }
 
-.nav-bg {
-    background-color: var(--black);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3rem;
-    z-index: 1000;
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
 
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-btn {
+        display: flex;
+        position: fixed;
+        right: 1rem;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        background-color: #333;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        position: fixed;
+        width: 15%;
+        right: 1rem;
+
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
 }
 
 nav {
@@ -109,6 +158,33 @@ nav a:hover {
     transition: text-decoration-color 0.5s ease-in-out;
 }
 
+.nav-bg {
+    background-color: var(--black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    z-index: 1000;
+
+}
+
+.nav-principal {
+    padding-right: 1rem;
+}
+
+.nav-principal a:hover {
+    font-weight: lighter;
+
+}
+
+.btn-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: auto;
+
+}
+
 
 /** hero **/
 
@@ -118,15 +194,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: calc(100vh + 3rem);
     display: flex;
-    margin-top: 3rem;
-    /* flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: flex-start;
-    padding-top: 100px;
-    padding-left: 180px; */
-
 }
 
 .container {
