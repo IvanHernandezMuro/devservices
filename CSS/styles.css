@@ -77,7 +77,8 @@ p {
     color: white;
     width: 100%;
     height: 1rem;
-    padding: 1rem position: fixed;
+    padding: 1rem;
+    position: fixed;
 }
 
 .nav-menu ul {
@@ -196,6 +197,20 @@ nav a:hover {
     width: 100%;
     display: flex;
 }
+
+.construction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.construction img {
+    width: 100%;
+}
+
+
+
+
 
 .container {
     display: flex;
