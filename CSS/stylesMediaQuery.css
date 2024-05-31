@@ -1,191 +1,207 @@
-    /**Contenedor HERO*/
-    @media screen and (max-width: 1440px) {
-        .container {
-            padding-top: 25px;
-            padding-left: 140px;
-        }
+/** barra de navegación */
+
+@media screen and (max-width: 768px) {
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0;
     }
+}
 
-    @media screen and (max-width: 1440px) {
-        .logo {
-            align-self: center;
-            width: auto;
-            height: 70%;
-            padding-top: 5rem;
-            padding-right: 10rem;
-        }
+@media screen and (max-width: 768px) {
+    .nav-menu a {
+        font-size: 30px;
     }
+}
 
-    @media screen and (max-width: 1366px) {
-        .container {
-            padding-left: 80px;
-        }
+/**Contenedor HERO*/
+@media screen and (max-width: 1440px) {
+    .container {
+        padding-top: 25px;
+        padding-left: 140px;
     }
+}
 
-    @media screen and (max-width: 1366px) {
-        .logo {
-            position: relative;
-            align-self: center;
-            width: auto;
-            height: 70%;
-            left: 25px;
-        }
+@media screen and (max-width: 1440px) {
+    .logo {
+        align-self: center;
+        width: auto;
+        height: 70%;
+        padding-top: 5rem;
+        padding-right: 10rem;
     }
+}
 
-    @media screen and (max-width: 768px) {
-        .container {
-            padding: 0;
-            width: 100%;
-        }
+@media screen and (max-width: 1366px) {
+    .container {
+        padding-left: 80px;
     }
+}
 
-    @media screen and (max-width: 768px) {
-        .main {
-            background-size: cover;
-            background-position: left;
-        }
+@media screen and (max-width: 1366px) {
+    .logo {
+        position: relative;
+        align-self: center;
+        width: auto;
+        height: 70%;
+        left: 25px;
     }
+}
 
-    @media screen and (max-width: 768px) {
-        .logo {
-            position: relative;
-            align-self: center;
-            width: auto;
-            height: 50%;
-            left: 85px;
-        }
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0;
+        width: 100%;
     }
+}
 
-    @media screen and (max-width: 712px) {
-        .container {
-            padding: 0;
-            width: 100%;
-        }
+@media screen and (max-width: 768px) {
+    .main {
+        background-size: cover;
+        background-position: left;
     }
+}
 
-    @media screen and (max-width: 712px) {
-        .main {
-            background-size: cover;
-            background-position: left;
-        }
+@media screen and (max-width: 768px) {
+    .logo {
+        position: relative;
+        align-self: center;
+        width: auto;
+        height: 50%;
+        left: 85px;
     }
+}
 
-    @media screen and (max-width: 712px) {
-        .logo {
-            position: relative;
-            align-self: center;
-            width: auto;
-            height: 50%;
-            left: 85px;
-        }
+@media screen and (max-width: 712px) {
+    .container {
+        padding: 0;
+        width: 100%;
     }
+}
 
-    @media screen and (max-width: 480px) {
-        .container {
-            padding: 0;
-            width: 100%;
-        }
+@media screen and (max-width: 712px) {
+    .main {
+        background-size: cover;
+        background-position: left;
     }
+}
 
-    @media screen and (max-width: 480px) {
-        .main {
-            background-size: cover;
-            background-position: left;
-        }
+@media screen and (max-width: 712px) {
+    .logo {
+        position: relative;
+        align-self: center;
+        width: auto;
+        height: 50%;
+        left: 85px;
     }
+}
 
-    @media screen and (max-width: 480px) {
-        .logo {
-            position: relative;
-            align-self: center;
-            width: auto;
-            height: 50%;
-            left: 85px;
-        }
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0;
+        width: 100%;
     }
+}
 
-    @media screen and (max-width: 412px) {
-        nav {
-
-            justify-content: flex-start;
-            padding-left: 2rem;
-        }
+@media screen and (max-width: 480px) {
+    .main {
+        background-size: cover;
+        background-position: left;
     }
+}
 
-    @media screen and (max-width: 412px) {
-        .container {
-            padding-left: 80px;
-        }
+@media screen and (max-width: 480px) {
+    .logo {
+        position: relative;
+        align-self: center;
+        width: auto;
+        height: 50%;
+        left: 85px;
     }
+}
 
+@media screen and (max-width: 412px) {
+    nav {
 
-    @media screen and (max-width: 412px) {
-        .logo {
-            position: relative;
-            align-self: flex-start;
-            width: auto;
-            height: 40%;
-            left: 80px;
-        }
+        justify-content: flex-start;
+        padding-left: 2rem;
     }
+}
 
-
-    @media screen and (max-width: 390px) {
-        .container {
-            padding-left: 50px;
-        }
+@media screen and (max-width: 412px) {
+    .container {
+        padding-left: 80px;
     }
+}
 
-    @media screen and (max-width: 390px) {
-        .logo {
-            position: relative;
-            align-self: center;
-            width: auto;
-            height: 35%;
-            left: 110px;
-        }
+
+@media screen and (max-width: 412px) {
+    .logo {
+        position: relative;
+        align-self: flex-start;
+        width: auto;
+        height: 40%;
+        left: 80px;
     }
+}
 
-    @media screen and (max-width: 375px) {
-        .container {
-            padding-left: 50px;
-        }
+
+@media screen and (max-width: 390px) {
+    .container {
+        padding-left: 50px;
     }
+}
 
-    @media screen and (max-width: 375px) {
-        .logo img {
-            max-width: 100px;
-        }
+@media screen and (max-width: 390px) {
+    .logo {
+        position: relative;
+        align-self: center;
+        width: auto;
+        height: 35%;
+        left: 110px;
     }
+}
 
-    @media screen and (max-width: 360px) {
-        .container {
-            padding-left: 50px;
-        }
+@media screen and (max-width: 375px) {
+    .container {
+        padding-left: 50px;
     }
+}
 
-    @media screen and (max-width: 360px) {
-        .logo img {
-            max-width: 200px;
-        }
+@media screen and (max-width: 375px) {
+    .logo img {
+        max-width: 100px;
     }
+}
 
-    @media screen and (max-width: 320px) {
-        .logo img {
-            position: relative;
-            align-self: auto;
-            width: auto;
-            height: 25%;
-            left: 78px;
-            bottom: 10rem;
-        }
+@media screen and (max-width: 360px) {
+    .container {
+        padding-left: 50px;
     }
+}
 
-    /** SERVICIOS **/
+@media screen and (max-width: 360px) {
+    .logo img {
+        max-width: 200px;
+    }
+}
 
-    /* Section */
+@media screen and (max-width: 320px) {
+    .logo img {
+        position: relative;
+        align-self: auto;
+        width: auto;
+        height: 25%;
+        left: 78px;
+        bottom: 10rem;
+    }
+}
 
-    /* @media (max-width: 768px) {
+/** SERVICIOS **/
+
+/* Section */
+
+/* @media (max-width: 768px) {
 
     .section {
         display: none;

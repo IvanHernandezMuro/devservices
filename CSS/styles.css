@@ -110,13 +110,14 @@ p {
         top: 60px;
         background-color: #333;
         width: 100%;
+        height: 80%;
     }
 
     .nav-menu.active {
         display: flex;
         position: fixed;
-        width: 15%;
-        right: 1rem;
+        width: 100%;
+        right: 0;
 
     }
 
