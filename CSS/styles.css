@@ -1,8 +1,8 @@
 /** Estos son Pseudoselectores**/
 /* Globales */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
 }
@@ -84,7 +84,7 @@ p {
 .nav-menu ul {
     list-style: none;
     display: flex;
-    padding: 0;
+    margin: auto;
 }
 
 .nav-menu li {
@@ -190,14 +190,14 @@ nav a:hover {
 
 /** hero **/
 
-.main {
+/* .main {
 
     background-image: url('/img/background-sec02.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
     display: flex;
-}
+} */
 
 .construction {
     display: flex;
@@ -210,24 +210,56 @@ nav a:hover {
 }
 
 
-
-
-
 .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* Color de fondo para visualizar el contenedor */
+}
+
+.aside {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Máximo ancho del aside */
+    background-color: black;
+    /* Color de fondo del aside */
+    padding: 0;
+    box-sizing: border-box;
+    /* Para incluir el padding en el ancho */
+}
+
+.centered-image {
+    display: block;
+    max-width: 100%;
+    height: 80%;
+    margin: auto;
+    /* Centrar horizontalmente */
+}
+
+/* Temporal logo*/
+/* .container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50%;
+    width: 100%;
     height: 100%;
+    background-color: #0A0A0A;
+} */
 
-}
-
-.logo {
+/* .logo {
     align-self: center;
     width: auto;
     height: 80%;
-}
+} */
+/*temporal logo*/
+
 
 
 /* .hero {

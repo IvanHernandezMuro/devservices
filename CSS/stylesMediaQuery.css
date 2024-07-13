@@ -15,7 +15,7 @@
 }
 
 /**Contenedor HERO*/
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .container {
         padding-top: 25px;
         padding-left: 140px;
@@ -36,9 +36,9 @@
     .container {
         padding-left: 80px;
     }
-}
+} */
 
-@media screen and (max-width: 1366px) {
+/* @media screen and (max-width: 1366px) {
     .logo {
         position: relative;
         align-self: center;
@@ -53,9 +53,9 @@
         padding: 0;
         width: 100%;
     }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .main {
         background-size: cover;
         background-position: left;
@@ -70,23 +70,23 @@
         height: 50%;
         left: 85px;
     }
-}
+} */
 
-@media screen and (max-width: 712px) {
+/* @media screen and (max-width: 712px) {
     .container {
         padding: 0;
         width: 100%;
     }
-}
+} */
 
-@media screen and (max-width: 712px) {
+/* @media screen and (max-width: 712px) {
     .main {
         background-size: cover;
         background-position: left;
     }
-}
+} */
 
-@media screen and (max-width: 712px) {
+/* @media screen and (max-width: 712px) {
     .logo {
         position: relative;
         align-self: center;
@@ -94,23 +94,23 @@
         height: 50%;
         left: 85px;
     }
-}
+} */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .container {
         padding: 0;
         width: 100%;
     }
-}
+} */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .main {
         background-size: cover;
         background-position: left;
     }
-}
+} */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .logo {
         position: relative;
         align-self: center;
@@ -118,7 +118,7 @@
         height: 50%;
         left: 85px;
     }
-}
+} */
 
 @media screen and (max-width: 412px) {
     nav {
@@ -128,14 +128,14 @@
     }
 }
 
-@media screen and (max-width: 412px) {
+/* @media screen and (max-width: 412px) {
     .container {
         padding-left: 80px;
     }
-}
+} */
 
 
-@media screen and (max-width: 412px) {
+/* @media screen and (max-width: 412px) {
     .logo {
         position: relative;
         align-self: flex-start;
@@ -143,16 +143,16 @@
         height: 40%;
         left: 80px;
     }
-}
+} */
 
 
-@media screen and (max-width: 390px) {
+/* @media screen and (max-width: 390px) {
     .container {
         padding-left: 50px;
     }
-}
+} */
 
-@media screen and (max-width: 390px) {
+/* @media screen and (max-width: 390px) {
     .logo {
         position: relative;
         align-self: center;
@@ -160,33 +160,33 @@
         height: 35%;
         left: 110px;
     }
-}
+} */
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
     .container {
         padding-left: 50px;
     }
-}
+} */
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
     .logo img {
         max-width: 100px;
     }
-}
+} */
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
     .container {
         padding-left: 50px;
     }
-}
+} */
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
     .logo img {
         max-width: 200px;
     }
-}
+} */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
     .logo img {
         position: relative;
         align-self: auto;
@@ -195,7 +195,7 @@
         left: 78px;
         bottom: 10rem;
     }
-}
+} */
 
 /** SERVICIOS **/
 
