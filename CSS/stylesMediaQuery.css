@@ -1,7 +1,9 @@
 /**Contenedor HERO*/
+
 @media screen and (max-width: 1440px) {
     .container {
-        padding-top: 25px;
+        position: relative;
+        padding-top: 25%;
         padding-left: 140px;
     }
 }
@@ -33,6 +35,13 @@
 }
 
 /** barra de navegación */
+@media screen and (max-width: 768px) {
+    .menu-btn {
+        display: flex;
+        position: fixed;
+        right: 1rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .nav-menu ul {
@@ -50,6 +59,7 @@
 
 @media screen and (max-width: 768px) {
     .container {
+        position: relative;
         padding: 0;
         width: 100%;
     }
@@ -74,6 +84,7 @@
 
 @media screen and (max-width: 712px) {
     .container {
+        position: relative;
         padding: 0;
         width: 100%;
     }
@@ -98,6 +109,7 @@
 
 @media screen and (max-width: 480px) {
     .container {
+        position: relative;
         padding: 0;
         height: 600px;
         width: 600px;
@@ -133,6 +145,7 @@
 
 @media screen and (max-width: 412px) {
     .container {
+        position: relative;
         padding: 0;
         height: 640px;
         width: 410px;
@@ -153,6 +166,7 @@
 
 @media screen and (max-width: 390px) {
     .container {
+        position: relative;
         padding: 0;
         height: 640px;
         width: 410px;
@@ -171,6 +185,7 @@
 
 @media screen and (max-width: 375px) {
     .container {
+        position: relative;
         padding: 0;
         height: 640px;
         width: 410px;
@@ -189,6 +204,7 @@
 
 @media screen and (max-width: 360px) {
     .container {
+        position: relative;
         padding: 0;
         height: 640px;
         width: 410px;
@@ -217,13 +233,3 @@
 }
 
 /** SERVICIOS **/
-
-/* Section */
-
-/* @media (max-width: 768px) {
-
-    .section {
-        display: none;
-    }
-
-} */
