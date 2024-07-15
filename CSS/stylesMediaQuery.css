@@ -6,13 +6,14 @@
         align-items: center;
         padding: 60px 0;
     }
-}
 
-@media screen and (max-width: 768px) {
     .nav-menu a {
-        font-size: 30px;
+        font-size: 1.8rem;
     }
 }
+
+
+
 
 /**Contenedor HERO*/
 /* @media screen and (max-width: 1440px) {
@@ -120,13 +121,13 @@
     }
 } */
 
-@media screen and (max-width: 412px) {
+/* @media screen and (max-width: 412px) {
     nav {
 
         justify-content: flex-start;
         padding-left: 2rem;
     }
-}
+} */
 
 /* @media screen and (max-width: 412px) {
     .container {
