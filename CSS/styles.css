@@ -1,10 +1,12 @@
 /** Estos son Pseudoselectores**/
 /* Globales */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 :root {
@@ -42,7 +44,6 @@ h3 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-
 }
 
 p {
@@ -79,12 +80,17 @@ p {
     height: 1rem;
     padding: 1rem;
     position: fixed;
+    right: 0;
 }
 
 .nav-menu ul {
     list-style: none;
     display: flex;
-    padding: 0;
+    margin: 0;
+
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 1rem;
 }
 
 .nav-menu li {
@@ -93,43 +99,8 @@ p {
 
 .nav-menu a {
     text-decoration: none;
-    color: white;
-}
+    color: var(--yellow);
 
-@media screen and (max-width: 768px) {
-    .menu-btn {
-        display: flex;
-        position: fixed;
-        right: 1rem;
-    }
-
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        background-color: #333;
-        width: 100%;
-        height: 80%;
-    }
-
-    .nav-menu.active {
-        display: flex;
-        position: fixed;
-        width: 100%;
-        right: 0;
-
-    }
-
-    .nav-menu ul {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-    }
-
-    .nav-menu li {
-        margin: 10px 0;
-    }
 }
 
 nav {
@@ -149,7 +120,8 @@ nav {
 nav a {
     text-decoration: none;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2 rem;
+    font-size: 1.5rem;
 
 }
 
@@ -190,16 +162,16 @@ nav a:hover {
 
 /** hero **/
 
-.main {
+/* .main {
 
     background-image: url('/img/background-sec02.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
     display: flex;
-}
+} */
 
-.construction {
+/* .construction {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,27 +179,65 @@ nav a:hover {
 
 .construction img {
     width: 100%;
+} */
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 200%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/img/block-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+/* .aside {
+    width: 100%;
+    max-width: 600px;
+    top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: transparent;
 
+    padding: 0;
+    box-sizing: border-box;
 
+}
 
+.centered-image {
+    display: block;
+    max-width: 100%;
+    height: 80%;
+    margin: auto;
 
+} */
+/* 
+/* Temporal logo*/
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 150%;
+    background-color: #0A0A0A;
 
 }
 
-.logo {
+*/
+/* .logo {
     align-self: center;
     width: auto;
     height: 80%;
-}
+} */
+/*temporal logo*/
+
 
 
 /* .hero {
@@ -295,37 +305,6 @@ nav a:hover {
         max-width: 80px;
     }
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -448,23 +427,9 @@ nav a:hover {
 
 } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** Footer **/
 
-.footer {
+/* .footer {
     text-align: center;
     font-size: larger;
     font-weight: bold;
@@ -478,7 +443,7 @@ nav a:hover {
 .bot-ini {
     display: flex;
     justify-content: center;
-}
+} */
 
 /** Media Query **/
 
