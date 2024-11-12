@@ -24,24 +24,24 @@
 }
 
 h1 {
-    font-size: 3.8rem;
+    font-size: 4.8rem;
     color: var(--white);
 }
 
 h2 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
     color: var(--grisOscuro);
-    margin-top: auto;
+
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
+    color: var(--grisOscuro);
 }
 
 h1,
 h2,
 h3 {
-    text-align: center;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
 }
@@ -51,7 +51,7 @@ p {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 14px;
+    font-size: 2rem;
 }
 
 /**Barra de Navegación**/
@@ -159,30 +159,17 @@ nav a:hover {
 
 }
 
-
-/** hero **/
-
-/* .main {
-
-    background-image: url('/img/background-sec02.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    display: flex;
-} */
-
+/* En construcción */
 /* .construction {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .construction img {
     width: 100%;
 } */
 
-
-.container {
+.cover-blocks {
     position: relative;
     width: 100%;
     height: 200%;
@@ -193,6 +180,73 @@ nav a:hover {
     background-image: url('/img/block-logo.png');
     background-size: cover;
     background-repeat: no-repeat;
+
+}
+
+/** servicios **/
+
+.article-01 {
+    -webkit-box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.74);
+    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.74);
+    background-color: var(--gris);
+
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect01-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.sect01-left img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+}
+
+.sect01-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.sect01-right h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.sect01-right p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+
+.content-aside {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: justify;
+    margin-inline: 3rem;
+    width: 90%;
+    height: 20%;
+
 }
 
 /* .aside {
@@ -202,24 +256,18 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     background-color: transparent;
 
     padding: 0;
     box-sizing: border-box;
 
-}
-
-.centered-image {
-    display: block;
-    max-width: 100%;
-    height: 80%;
-    margin: auto;
-
 } */
-/* 
+
+
+
 /* Temporal logo*/
-.container {
+/* .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,9 +276,8 @@ nav a:hover {
     height: 150%;
     background-color: #0A0A0A;
 
-}
+} */
 
-*/
 /* .logo {
     align-self: center;
     width: auto;
@@ -357,75 +404,7 @@ nav a:hover {
 
 
 /**servicios**/
-/* .main {
-    -webkit-box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.74);
-    -moz-box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.74);
-    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.74);
-    background-color: var(--gris);
-    width: 100%;
-    height: calc(100vh);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-/* 
-.main h2 {
-    padding: 1rem;
 
-} */
-
-/* .section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 50%;
-    height: 100%;
-
-} */
-
-/* .section img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
-} */
-
-/* .aside {
-
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    margin-right: 7rem;
-
-} */
-/* 
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    text-align: center;
-    width: 100%;
-    height: 50%;
-    padding: 5rem;
-} */
-
-/* .content-aside {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    text-align: justify;
-    margin-inline: 3rem;
-    width: 90%;
-    height: 20%;
-
-
-
-} */
 
 /** Footer **/
 
