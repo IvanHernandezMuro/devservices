@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3.8rem;
+	font-size: 2.8rem;
 	color: var(--grisOscuro);
 }
 
@@ -56,7 +56,7 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 .grid-container > * {
@@ -124,12 +124,32 @@ p {
 
 .aside {
 	grid-area: aside;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5px;
 	background-color: rgba(77, 237, 106, 0.74);
+}
+.aside-item {
+	background-color: #f4f4f4;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sect01-left img {
+	width: 100%;
+	height: auto;
+}
+
+.sect02-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .services {
 	grid-area: services;
-	background-color: greenyellow;
+	background-color: blueviolet;
 }
 
 .footer {
