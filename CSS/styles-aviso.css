@@ -1,293 +1,280 @@
-/** Estos son Pseudoselectores**/
+/**! Estos son Pseudoselectores**/
 /* Globales */
 :root {
-    /*Custom properties*/
-    --white: rgb(255, 255, 255);
-    --black: #0A0A0A;
-    --yellow: #ffda79;
-    --salmon: rgb(255, 176, 148);
-    --blue: #34ace0;
-    --gris: #D6D7D6;
-    --grisOscuro: rgb(99, 107, 123);
-    --oscuro: rgb(40, 45, 50);
-    --red: #ff5252;
-    --fuentes-principal: 3.8rem;
+	/*Custom properties*/
+	--white: rgb(255, 255, 255);
+	--black: #0a0a0a;
+	--yellow: #ffda79;
+	--salmon: rgb(255, 176, 148);
+	--blue: #34ace0;
+	--gris: #d6d7d6;
+	--grisOscuro: rgb(99, 107, 123);
+	--oscuro: rgb(40, 45, 50);
+	--red: #ff5252;
+	--fuentes-principal: 3.8rem;
 }
 
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
+	font-size: 62.5%;
+	box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 
 h1 {
-    font-size: 24px;
+	font-size: 24px;
 }
 
-
 .header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .header h1 {
-    font-family: Montserrat,
-        "Open Sans",
-        "Helvetica Neue",
-        Helvetica,
-        Arial,
-        sans-serif;
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #fff;
+	font-family: Montserrat, 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #fff;
 }
 
-
-
 @media (max-width: 412px) {
-    .header h1 {
-
-        font-size: 18px;
-    }
+	.header h1 {
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 390px) {
-    .header h1 {
-        font-size: 16px;
-    }
+	.header h1 {
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 375px) {
-    .header h1 {
-        font-size: 14px;
-    }
+	.header h1 {
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 360px) {
-    .header h1 {
-        font-size: 12px;
-    }
+	.header h1 {
+		font-size: 12px;
+	}
 }
 
 @media (max-width: 320px) {
-    .header h1 {
-        font-size: 10px;
-    }
+	.header h1 {
+		font-size: 10px;
+	}
 }
 
 .content {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-bottom: 20px;
-
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-bottom: 20px;
 }
 
 .content p {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 @media (max-width: 412px) {
-    .content {
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        padding-right: 17px;
-        padding-left: 17px;
-    }
+	.content {
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		padding-right: 17px;
+		padding-left: 17px;
+	}
 
-    .content h1,
-    h2,
-    h3 {
-        display: flex;
-        text-align: center;
-    }
+	.content h1,
+	h2,
+	h3 {
+		display: flex;
+		text-align: center;
+	}
 
-    .content p {
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        font-size: 15px;
-    }
+	.content p {
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		font-size: 15px;
+	}
 }
 
 /** Secciones*/
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    color: rgb(51, 65, 85);
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	color: rgb(51, 65, 85);
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 40px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 h2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 h3 {
-    margin-top: 30px;
-    margin-bottom: 25px;
-    font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-size: 20px;
 }
 
 p {
-    line-height: 1.6;
-    margin-bottom: 15px;
+	line-height: 1.6;
+	margin-bottom: 15px;
 
-    font-size: 15px;
-    text-align: justify;
+	font-size: 15px;
+	text-align: justify;
 }
 
 .container ul {
-    font-size: 15px;
-    text-align: left;
+	font-size: 15px;
+	text-align: left;
 }
 
 .container ol {
-    font-size: 15px;
+	font-size: 15px;
 }
 
 .data-table {
-    font-size: 15px;
-
+	font-size: 15px;
 }
 
 @media only screen and (max-width: 1440px) {
-    .container {
-        max-width: 700px;
-    }
+	.container {
+		max-width: 700px;
+	}
 }
 
 @media only screen and (max-width: 1366px) {
-    .container {
-        max-width: 600px;
-    }
+	.container {
+		max-width: 600px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        max-width: 500px;
-    }
+	.container {
+		max-width: 500px;
+	}
 }
 
 @media only screen and (max-width: 412px) {
-    .container {
-        max-width: 350px;
-    }
+	.container {
+		max-width: 350px;
+	}
 }
 
 @media only screen and (max-width: 390px) {
-    .container {
-        max-width: 320px;
-    }
+	.container {
+		max-width: 320px;
+	}
 }
 
 @media only screen and (max-width: 375px) {
-    .container {
-        max-width: 300px;
-    }
+	.container {
+		max-width: 300px;
+	}
 }
 
 @media only screen and (max-width: 360px) {
-    .container {
-        max-width: 280px;
-    }
+	.container {
+		max-width: 280px;
+	}
 }
 
 @media only screen and (max-width: 320px) {
-    .container {
-        max-width: 260px;
-
-    }
+	.container {
+		max-width: 260px;
+	}
 }
 
 .actualization p {
-    text-align: end;
+	text-align: end;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-    min-height: 0px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    border: none;
-    font-size: 16px;
-
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	min-height: 0px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	border: none;
+	font-size: 16px;
 }
 
 footer a {
-    color: antiquewhite;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+	color: antiquewhite;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
 
-
-    text-decoration: none;
-    color: #fff;
-    padding: 0.5rem 1rem;
+	text-decoration: none;
+	color: #fff;
+	padding: 0.5rem 1rem;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-    text-decoration-color: #00f;
-    text-decoration-thickness: 6px;
-    transition: text-decoration-color 0.5s ease-in-out;
+	text-decoration: underline;
+	text-decoration-color: #00f;
+	text-decoration-thickness: 6px;
+	transition: text-decoration-color 0.5s ease-in-out;
 }
 
 .data-table {
-    width: 100%;
-    border-collapse: collapse;
+	width: 100%;
+	border-collapse: collapse;
 }
 
 .data-table th,
 .data-table td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
 }
 
 .data-table th {
-    background-color: #f2f2f2;
+	background-color: #f2f2f2;
 }
