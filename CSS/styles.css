@@ -213,7 +213,7 @@ p {
 	transition: text-decoration-color 0.5s ease-in-out;
 }
 
-/** Dispositivo Mobil/ */
+/** Dispositivo Mobil ESTRUCTURA */
 .grid-container {
 	display: grid;
 	padding: 10px;
