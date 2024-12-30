@@ -81,12 +81,15 @@ p {
 /** 01 BARRA DE MENU */
 .nav-menu {
 	grid-area: nav-menu;
-	position: relative;
+	   position: fixed;
+    top: 0;
+    width: 100%;
+	/* position: relative;
 	top: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
 	background-color: var(--black);
 	color: white;
 	height: 2rem;
