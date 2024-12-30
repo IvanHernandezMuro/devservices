@@ -90,8 +90,7 @@ p {
 	background-color: var(--black);
 	color: white;
 	height: 2rem;
-	padding: auto;
-	gap: 1rem;
+	padding: 1rem;
 	z-index: 1000;
 }
 .nav-menu ul {
