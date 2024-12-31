@@ -192,7 +192,7 @@ spam {
 	max-width: 100%;
 	min-height: auto;
 	background-color: var(--oscuro);
-	border-radius: 10px;
+	border-radius: 0%;
 	justify-items: center;
 	align-items: start;
 	justify-content: center;
@@ -247,12 +247,12 @@ spam {
 	max-width: 100%;
 	min-height: auto;
 	background-color: var(--black);
-	border-radius: 10px;
+	border-radius: 0%;
 	justify-items: center;
 	align-items: start;
 	justify-content: center;
-	top: 3rem;
-	margin: 2rem 1rem 2rem 1rem;
+	top: 1rem;
+	margin: 2rem 1rem 0.1rem 1rem;
 }
 .slogan h1 {
 	display: flex;
@@ -270,6 +270,7 @@ spam {
 	text-align: center;
 	background-color: var(--oscuro);
 	top: 6rem;
+	border-radius: 0%;
 }
 .footer p,
 .footer span,
