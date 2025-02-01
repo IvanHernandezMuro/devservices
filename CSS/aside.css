@@ -42,17 +42,17 @@ body {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: var(--white);
 }
 
 h2 {
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	color: var(--grisOscuro);
 }
 
 h3 {
-	font-size: 0.8em;
+	font-size: 0.8rem;
 	color: var(--grisOscuro);
 }
 
@@ -68,7 +68,7 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
-	font-size: 1em;
+	font-size: 1rem;
 }
 spam {
 	color: var(--gris);
@@ -92,8 +92,8 @@ spam {
 	width: 100%;
 	background-color: var(--black);
 	color: white;
-	height: 2em;
-	padding: 1em;
+	height: 2rem;
+	padding: 1rem;
 	z-index: 1000;
 }
 .nav-menu ul {
@@ -112,7 +112,7 @@ spam {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 1em;
+	height: 1rem;
 }
 .nav-menu ul li a {
 	text-decoration: none;
@@ -129,20 +129,12 @@ spam {
 /** 02 COVER BLOCKS LOGO */
 .header {
 	grid-area: header;
-	background-color: var(--black);
+	/* background-color: var(--black); */
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-}
-.cover-blocks img {
-	max-width: 100%;
-	height: 50vh;
-	top: 1em;
-	background-repeat: no-repeat;
-	background-size: cover;
+	max-height: 0px;
 }
 
 /** 03 SECCIONES */
@@ -152,30 +144,46 @@ spam {
 	position: relative;
 	max-width: 100%;
 	min-height: auto;
-	background-color: wheat;
+	height: auto;
+	background-color: var(--grisOscuro);
 	border-radius: 10px;
 	justify-items: center;
 	align-items: start;
 	justify-content: center;
 	top: 1em;
 	bottom: 1em;
-	border-radius: 0;
 }
 
 .aside-item-01 h2 {
 	position: relative;
 	display: block;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: var(--black);
 	text-align: center;
 	height: auto;
+	top: 3em;
+	margin: 1em;
 }
 .aside-item-01 img {
 	position: relative;
 	display: block;
-	margin: 0 auto;
+	margin: 1em auto;
 	width: 80%;
 	height: auto;
+	top: 1em;
+}
+
+.aside-item-02 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.aside-item-02 p {
+	display: flex;
+	font-size: 1rem;
+	color: var(--black);
+	text-align: justify;
+	margin: 3em;
 }
 
 /** servicios **/
@@ -190,12 +198,12 @@ spam {
 	justify-items: center;
 	align-items: start;
 	justify-content: center;
-	top: 2em;
-	bottom: 1em;
+	top: 2rem;
+	bottom: 1rem;
 }
 .services-item img {
 	display: block;
-	margin: 1em auto;
+	margin: 1rem auto;
 	width: 100%;
 	height: auto;
 	align-items: center;
@@ -216,7 +224,7 @@ spam {
 	position: relative;
 	align-items: center;
 	justify-content: center;
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	color: var(--white);
 	text-align: center;
 }
@@ -226,10 +234,10 @@ spam {
 	flex-direction: column;
 	justify-content: center;
 	gap: 3rem;
-	font-size: 1em;
+	font-size: 1rem;
 	color: var(--black);
 	text-align: left;
-	margin: 1em 1em 5em 1em;
+	margin: 1rem 1rem 5rem 1rem;
 	flex-direction: column;
 	position: relative;
 }
@@ -245,12 +253,12 @@ spam {
 	justify-items: center;
 	align-items: start;
 	justify-content: center;
-	top: 1em;
-	margin: 0;
+	top: 1rem;
+	margin: 2rem 1rem 0.1rem 1rem;
 }
 .slogan h1 {
 	display: flex;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	font-style: italic;
 	color: var(--white);
 	text-align: center;
@@ -266,7 +274,7 @@ spam {
 	align-items: center;
 	text-align: center;
 	background-color: var(--oscuro);
-	top: 6em;
+	top: 6rem;
 	border-radius: 0%;
 }
 .footer p,
@@ -278,7 +286,7 @@ spam {
 }
 .footer h2 {
 	color: var(--white);
-	margin: 1em;
+	margin: 1rem;
 }
 .footer img {
 	width: 100%;
@@ -297,7 +305,7 @@ spam {
 .grid-container {
 	display: grid;
 	padding: 10px;
-	gap: 1em;
+	gap: 1rem;
 	grid-template:
 		'nav-menu' 50px
 		'header' 50vh
