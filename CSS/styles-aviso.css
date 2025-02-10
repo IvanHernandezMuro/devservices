@@ -264,14 +264,14 @@ a:hover {
 }
 
 .data-table {
-	width: 100%;
+	width: 80%;
 	border-collapse: collapse;
 }
 
 .data-table th,
 .data-table td {
 	border: 1px solid black;
-	padding: 8px;
+	padding: 0px;
 	text-align: left;
 }
 
