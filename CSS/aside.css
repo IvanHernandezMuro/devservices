@@ -114,12 +114,12 @@ spam {
 }
 .nav-menu ul li a {
 	text-decoration: none;
-	color: var(--yellow);
+	color: var(--salmon);
 	font-size: 16px;
 }
 .nav-menu a:hover {
 	text-decoration: revert-layer;
-	text-decoration-color: #00f;
+	text-decoration-color: var(--yellow);
 	text-decoration-thickness: 6px;
 	transition: text-decoration-color 0.5s ease-in-out;
 }
@@ -311,4 +311,221 @@ spam {
 		'services' auto
 		'slogan' auto
 		'footer' auto;
+}
+
+/** DISPOSITIVOS TABLET */
+@media (max-width: 768px) {
+	.container {
+		max-width: 100%;
+		padding: 15px;
+	}
+
+	h1 {
+		font-size: 2em;
+		margin-bottom: 25px;
+	}
+
+	h2 {
+		font-size: 1.7em;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	h3 {
+		font-size: 1.4em;
+		margin-top: 25px;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 1.5;
+		margin-bottom: 15px;
+	}
+
+	.data-table {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.data-table th,
+	.data-table td {
+		padding: 8px;
+	}
+
+	.header h1 {
+		font-size: 22px;
+	}
+
+	.content {
+		padding: 15px;
+	}
+
+	.content p {
+		font-size: 16px;
+	}
+
+	footer {
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	footer a {
+		padding: 0.75rem;
+	}
+
+	.grid-container {
+		grid-template:
+			'nav-menu' auto
+			'header' auto
+			'aside' auto
+			'services' auto
+			'slogan' auto
+			'footer' auto;
+	}
+}
+
+/** DISPOSITIVOS LAPTOP */
+@media (max-width: 992px) {
+	.container {
+		max-width: 100%;
+		padding: 20px;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		margin-bottom: 30px;
+	}
+
+	h2 {
+		font-size: 2em;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	h3 {
+		font-size: 1.6em;
+		margin-top: 30px;
+		margin-bottom: 25px;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 1.6;
+		margin-bottom: 20px;
+	}
+
+	.data-table {
+		width: 100%;
+		font-size: 18px;
+	}
+
+	.data-table th,
+	.data-table td {
+		padding: 10px;
+	}
+
+	.header h1 {
+		font-size: 24px;
+	}
+
+	.content {
+		padding: 20px;
+	}
+
+	.content p {
+		font-size: 18px;
+	}
+
+	footer {
+		padding: 20px;
+		font-size: 18px;
+	}
+
+	footer a {
+		padding: 1rem;
+	}
+
+	.grid-container {
+		grid-template:
+			'nav-menu' auto
+			'header' auto
+			'aside' auto
+			'services' auto
+			'slogan' auto
+			'footer' auto;
+	}
+}
+
+/** DISPOSITIVOS GRANDES */
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+		padding: 30px;
+	}
+
+	h1 {
+		font-size: 3em;
+		margin-bottom: 35px;
+	}
+
+	h2 {
+		font-size: 4.5em;
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+
+	h3 {
+		font-size: 2em;
+		margin-top: 35px;
+		margin-bottom: 30px;
+	}
+
+	p {
+		font-size: 5em;
+		line-height: 1.8;
+		margin-bottom: 25px;
+	}
+
+	.data-table {
+		width: 100%;
+		font-size: 20px;
+	}
+
+	.data-table th,
+	.data-table td {
+		padding: 12px;
+	}
+
+	.header h1 {
+		font-size: 28px;
+	}
+
+	.content {
+		padding: 30px;
+	}
+
+	.content p {
+		font-size: 20px;
+	}
+
+	footer {
+		padding: 30px;
+		font-size: 20px;
+	}
+
+	footer a {
+		padding: 1.25rem;
+	}
+
+	.grid-container {
+		grid-template:
+			'nav-menu nav-menu'
+			'header header'
+			'aside services'
+			'slogan slogan'
+			'footer footer';
+		grid-template-columns: 1fr 1fr;
+		gap: 2em;
+	}
 }

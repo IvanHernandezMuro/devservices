@@ -35,6 +35,7 @@ body {
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
+	background-color: var(--black);
 }
 
 h1 {
@@ -87,7 +88,6 @@ span {
 	top: 0;
 	width: 100%;
 	background-color: var(--black);
-	color: white;
 	height: 2em;
 	padding: 1em;
 	z-index: 1000;
@@ -99,7 +99,7 @@ span {
 	margin: 0;
 	flex-direction: row;
 	justify-content: flex-end;
-	padding: 0.5em;
+	padding: 0;
 }
 .nav-menu ul li {
 	margin: 0 10px;
@@ -112,12 +112,12 @@ span {
 }
 .nav-menu ul li a {
 	text-decoration: none;
-	color: var(--yellow);
+	color: var(--salmon);
 	font-size: 16px;
 }
 .nav-menu a:hover {
 	text-decoration: revert-layer;
-	text-decoration-color: #00f;
+	text-decoration-color: var(--yellow);
 	text-decoration-thickness: 6px;
 	transition: text-decoration-color 0.5s ease-in-out;
 }
@@ -125,7 +125,6 @@ span {
 /** 02 COVER BLOCKS LOGO */
 .header {
 	grid-area: header;
-	/* background-color: var(--white); */
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -148,7 +147,7 @@ span {
 	position: relative;
 	max-width: 100%;
 	min-height: auto;
-	/* background-color: var(--white); */
+	background-color: var(--black);
 	border-radius: 10px;
 	justify-items: center;
 	align-items: start;
