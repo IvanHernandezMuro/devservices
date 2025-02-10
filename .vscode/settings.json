@@ -1,35 +1,21 @@
 {
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#1f6fd0",
-        "activityBar.background": "#1f6fd0",
+        "activityBar.activeBackground": "#26394d",
+        "activityBar.background": "#26394d",
         "activityBar.foreground": "#e7e7e7",
         "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#ee90bb",
-        "activityBarBadge.foreground": "#15202b",
+        "activityBarBadge.background": "#ab547e",
+        "activityBarBadge.foreground": "#e7e7e7",
         "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#1f6fd0",
-        "statusBar.background": "#1857a4",
+        "sash.hoverBorder": "#26394d",
+        "statusBar.background": "#15202b",
         "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#1f6fd0",
-        "statusBarItem.remoteBackground": "#1857a4",
+        "statusBarItem.hoverBackground": "#26394d",
+        "statusBarItem.remoteBackground": "#15202b",
         "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#1857a4",
+        "titleBar.activeBackground": "#15202b",
         "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#1857a499",
+        "titleBar.inactiveBackground": "#15202b99",
         "titleBar.inactiveForeground": "#e7e7e799"
-    },
-    "cSpell.words": [
-        "Cancún",
-        "CONDUSEF",
-        "CURP",
-        "DEVS",
-        "egresos",
-        "Juárez",
-        "normatividad",
-        "PROFECO",
-        "Pseudoselectores",
-        "SEPOMEX"
-    ],
-    "peacock.color": "#1857a4",
-    "liveServer.settings.port": 5501
+    }
 }
